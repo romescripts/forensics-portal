@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensics Submission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Forensics Evidence Submission</h1>
+        <form id="forensics-form">
+            <label for="evidence">Upload Evidence (e.g., Image, Document):</label>
+            <input type="file" id="evidence" name="evidence" accept="image/*, .pdf" required>
+            
+            <label for="evidence-description">Description:</label>
+            <textarea id="evidence-description" name="description" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
